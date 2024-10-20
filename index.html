@@ -1,0 +1,190 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/44a3794737.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+<div class="container">
+    <nav>
+    <div class="logo"><h1><span>H</span>adi</h1></div>
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li> 
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-x" onclick="closeMenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+    </nav>
+     <div class="header-text">
+        <p>Social Media Manager</p>
+        <h1>Hi, I'm <span>Sanwo</span><br> Abdulhadi from Nigeria</h1> 
+      </div>
+</div>
+    </div>
+
+<!-----------about----------->
+   <div id="about">
+
+
+      <div class="container">
+         <div class="row">
+              <div class="about-col-1">
+                <img src="images/user.png" alt="">
+              </div>
+              <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                <br>
+                <br>
+                 Result Driven Social Media Manager with 3 years of 
+                <br>
+                <br>
+                 experience, boosting brand presence and engagement 
+                <br>
+                <br>
+                 through   strategic content creation and campaign execution. 
+                </p>
+
+    <div class="tab-titles">
+<p class="tab-links active-link" onclick="opentab(event, 'skills')">Skills</p>
+<p class="tab-links" onclick="opentab(event, 'experience')">Experience</p>
+<p></p>
+<p></p>
+    </div>
+
+    <div class="tab-content active-tab" id="skills">
+        <ul>
+            <li>Content Creation</li>
+            <li>Time Management</li>
+            <li>Programming: HTML,CSS,JAVASCRIPT</li>
+            <li>Analytics and Tools Use</li>
+            <li>Strategy and Planning</li>
+            <li>Cross Platform Social Media Management</li>
+
+        </ul>
+    </div>
+
+    <div class="tab-content" id="experience">
+        <ul>
+            <li>2022 - Current <span> (handled over 4 pages across different social media handles)</span></li>
+        </ul>
+    </div>
+              </div>
+         </div>
+      </div>
+   </div>
+
+
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <h2>Services I Offer</h2>
+                 <p> - Social Media Setup and Optimization</p>
+                 <p> - Content Creation</p>
+                 <p> - Monthly Analytics Report</p>
+                 <p> - Social Media Advertising (Clients budget / Month)</p>
+                 <p> - Quarterly Progress Meetings</p>
+                 <p> - Influencer Collaboration (Clients budget / Month)</p>
+             
+              </div>
+
+          <div>
+            <h2>Tools and Systems I Use</h2>
+            <p>CANVA</p>
+            <br>
+            <P>CAPCUT </P>
+            <br>
+            <p>ASANA</p>
+            <br>
+            <p>INSTAGRAM ANALYTICS</p>
+            <br>
+            <p>X</p>
+            <br>
+            <p>TIKTOK</p>
+           
+          </div>
+         
+        </div>
+    </div>
+   </div>
+
+
+   <!------------------portfolio---------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work </h1>
+        <h4>(click the images below)</h4>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Dash_Tail UI Concept.jpeg" alt="">
+                <div class="layer">
+                    <h3>Clients Visual Progress</h3>
+                    <p>Visual Progress of Clients Growth
+                    </p>
+                    <a href="https://sanwos-client.my.canva.site/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            
+            <div class="work">
+                <img src="images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Clients I Have Worked With</h3>
+                    <p></p>
+                    <a href="https://www.canva.com/design/DAGUG-K9guQ/1xfLBWARDM6TvyvDmRkyyw/view?utm_content=DAGUG-K9guQ&utm_campaign=designshare&utm_medium=link&utm_source=editor"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+       <!--<a href="#" class="btn">See more</a>---> 
+    </div>
+</div>
+
+
+<!----contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row"> 
+            <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p> <i class="fa-solid fa-paper-plane"></i>sanwowaltz@gmail.com</p>
+              <p><i class="fa-solid fa-phone-volume"></i>+234 9051846309</p> 
+              <div class="social-icon">
+                 <a href="https://wa.me/+2349047067947"><i class="fa-brands fa-whatsapp"></i></a>
+                 <a href="https://www.instagram.com/jomiii.o?igsh=MThrNmF6bm14Mng5ZQ%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+              <a href="images/my cv.jpg" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+               <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your name" required>
+                <input type="text" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+               </form> 
+
+               <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright @ Hadi</p>
+    </div>
+</div>
+
+<script src="main.js"></script>
+
+<script>
+   
+  </script>
+</body>
+</html>
